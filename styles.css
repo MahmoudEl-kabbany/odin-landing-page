@@ -1,3 +1,118 @@
+body {
+  height: 100vh;
+  margin: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.header,
+.footer {
+  flex: 1;
+}
+
+.intro,
+.info,
+.review,
+.call-to-action {
+  flex: 2;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.header-logo {
+  margin-right: 400px;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding: 50px;
+}
+
+.intro-text {
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-main,
+.hero-secondary {
+  margin: 0;
+}
+
+.intro-text button {
+  max-width: 100px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+
+.info-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.review {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.review p {
+  max-width: 500px;
+}
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+.cta-block {
+  width: 900px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 300px;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.cta-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cta-text p {
+  margin: 0;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+/* styling */
+
 .header,
 .footer,
 .intro {
@@ -35,7 +150,7 @@
 }
 
 img {
-  width: 600px;
+  width: 400px;
   height: auto;
 }
 
@@ -48,6 +163,7 @@ img {
 
 .info-box div {
   border: 5px solid #3882f6;
+  border-radius: 15px;
   padding: 50px;
 }
 
@@ -58,7 +174,7 @@ img {
 
 .review p {
   color: #1f2937;
-  font-size: 36px;
+  font-size: 26px;
   font-weight: lighter;
   font-style: italic;
 }
@@ -73,6 +189,9 @@ img {
   color: #f9faf8;
   background-color: #3882f6;
   border: 2px solid #f9faf8;
+  border-radius: 3px;
+  width: 100px;
+  padding: 3px;
 }
 
 .cta-header {
